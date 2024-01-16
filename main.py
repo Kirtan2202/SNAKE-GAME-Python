@@ -43,7 +43,7 @@ while game_is_on:
         #     pass
         if snake.head.distance(segment) < 10:
             game_is_on = False
-            scoreboard.game_over()
+            scoreboard.game_over() 
     
 
 
